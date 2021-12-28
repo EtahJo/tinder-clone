@@ -14,11 +14,13 @@ export const Container = styled.div`
     z-index:0;
     position:sticky;
     top:0px;
+    width:100%;
+   
     
 `;
 
 export const Himage = styled.img`
-    max-width:20%;
+    max-width:15%;
     object-fit:contain;
 
 `;
@@ -83,7 +85,6 @@ export const Button = styled.button`
 `;
 export const Hdropdown = styled.div`
     position: relative;
-    
    div{
     position: absolute;
     left:0;
@@ -145,6 +146,7 @@ export const Hlink =styled.a`
  text-decoration: none;
   display: block;
   &:hover{
+ 
       color:red;
       font-size:16px;
       text-decoration: underline;

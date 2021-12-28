@@ -6,6 +6,7 @@ import {Container,Language,Himage,Hlink,Htable,Hdropdown,Button} from "./styles.
 function Header() {
     return (
             <Container>
+             
                 <Himage src="/images/Tinder-logo1.png" alt="logo" />
                 <Hdropdown>
                     <button>Products</button>
@@ -18,7 +19,7 @@ function Header() {
                     <Hlink>Swipe Night</Hlink>
                     </div>
                 </Hdropdown>
-                <Hlink>Learn</Hlink>
+                <Hlink href="/swipe">Learn</Hlink>
                 <Hdropdown>
                     <button>Safety</button>
                     <div>
@@ -31,6 +32,7 @@ function Header() {
                 </Hdropdown>
                 <Hlink>Support</Hlink>
                  <Hlink>Download</Hlink>
+           
                  <Language>
                      <img src="images/globe-icon.svg" alt="globe" />
                      <h2>ENGLISH</h2>
@@ -40,31 +42,6 @@ function Header() {
             </Container>
            
     
-        /*<Container>
-            
-            <Hlink>
-                <Link to= "/">
-                    Support    
-                </Link>
-            </Hlink>
-            <Hlink>
-               <Link to ="/">
-               Download
-               </Link>
-            </Hlink>
-            <Language>
-                <FontAwesome
-                name="world"
-                size={25}
-                color="white"
-                />
-                <p>ENGLISH</p>
-            </Language>
-            <Button>
-                <h3>Log In </h3>
-            </Button>
-
-        </Container>*/
     )
 }
 

@@ -1,17 +1,15 @@
 import React from 'react';
 import { Ccontainer} from "./styles"
 
-function Card({names,story}) {
+function Card({names,story,key}) {
     return (
        <Ccontainer>
            <div>
-           <h2>Gabriel & Fiance</h2>
+           <h2>{names}</h2>
            <img src="images/quote-left-solid.svg" alt="" />
            </div>
           
-           <p>I met my  fiance on tinder during the quaratine 
-
-           </p>
+           <p>{story}</p>
        </Ccontainer>
     )
 }
